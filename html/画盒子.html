@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>页面基本布局</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        .header{
+            height: 80px;
+            background-color: rgb(0, 0, 0);
+        }
+        .nav{
+           width: 1000px;
+           height: 60px;
+            background-color: skyblue;
+        }
+        .main{
+            width: 1000px;
+            height: 1000px;
+            background-color: pink;
+        }
+        .footer{
+            height: 150px;
+            background-color: rgb(237, 75, 75);
+        }
+        /* 居中对齐 */
+        .container{
+            margin: 0 auto;
+        }
+    </style>
+</head>
+<body>
+    <!-- 头部内容 -->
+     <div class="header"></div>
+     <!-- 导航栏 -->
+      <div class="nav container"></div>
+        <!-- 主体内容 -->
+         <div class="main container"></div>
+         <!-- 底部内容 -->
+            <div class="footer"></div>
+</body>
+</html>
